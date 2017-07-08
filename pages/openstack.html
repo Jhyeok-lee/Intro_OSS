@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Introduction to Open-Source Page</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../css/landing-page.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+        <div class="container topnav">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand topnav" href="index.html">Home</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="foundation.html">Open-Source Foundation</a>
+                    </li>
+                    <li>
+                        <a href="project.html">Open-Source Project</a>
+                    </li>
+                    <li>
+                        <a href="license.html">License</a>
+                    </li>
+                    <li>
+                        <a href="github.html">Git/Github</a>
+                    </li>
+                    <li>
+                        <a href="github_project.html">Github project</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+    <header class="intro-header" style="background-image: url('img/post-bg.jpg')">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="post-heading">
+                        <span class="atom-heading"><a href="#">Openstack</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Post Content -->
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <p class="korean_font">오픈스택(OpenStack)은 IaaS 형태의 클라우드 컴퓨팅 오픈 소스 프로젝트이다. 2012년 창설된 비영리 단체인 OpenStack Foundation에서 유지, 보수하고 있으며 아파치 라이선스하에 배포된다. AMD, 인텔, 캐노니컬, 수세 리눅스, 레드햇, 시스코 시스템즈, 델, HP, IBM, NEC, VM 웨어, 야후 등 150개 이상의 회사가 이 프로젝트에 참가하고 이쓰며, 주로 리눅스 기반으로 운용과
+                        개발이 이루어진다. 프로세싱, 저장공간, 네트워킹의 가용자원을 제어하는 목적의 여러개의 하위 프로젝트로 이루어져 있다. 대시 보드 프로젝트는 다른 하위 프로젝트의 운영 제어를 웹 인터페이스를 통해 담당한다. 오픈스택은 열린 설계와 개발을 지향한다. 커뮤니티는 6개월의 릴리즈 사이클 로 개발을 진행하고 있다. 매 사이클의 기획단계에서는 OpenStack Design Summit을 개최하여, 개발자 작업을
+                        지원하고, 로드맵을 설정하고 있다.</p>
+
+                    <h2 class="section-heading">역사</h2>
+                    <p class="korean_font">2010년 7월 Rackspace사와 미국 항공우주국이 오픈스택(OpenStack) 오픈 소스 프로젝트를 시작하였다. 오픈스택은 일반적인 서버에서 클라우드 컴퓨팅 서비스를 생성하고 실행할 수 있도록 해준다. 첫 번째 릴리즈 (코드명 Austin)는 프로젝트 시작 4개월 이후에 공식 릴리즈 되었고, 이후 공식 버전은 6개월 마다 릴리즈된다. 처음에는 미국 항공우주국의 Nebula 플랫폼과 Rackspace의 클라우드
+                        파일 플랫폼의 소스를 기반으로 하였다. 오픈스택은 우분투와 레드햇 배포판에 포함되었다.
+                    </p>
+
+
+                    <h2 class="section-heading">기본 서비스</h2>
+
+                    <p class="korean_font">1. Nova(Compute) : Iaas(infrastructure as a Service) 구축에 필요한 compute instance 들을 제어 및 관리하기 위한 서비스로 All share 기능을 담당하는 프로젝트. 2. Glance(Image) : 가상 머신 이미지들을 저장, 등록, 관리, 전달하기 위한 이미지 서비스이며 Nova와 storage간 중계 역할을 담당함. 3. Swift(Object Storage)
+                        : Block Storage가 아닌 Object storage환경을 구축 및 관리하기 위한 서비스로 별도의 독립적인 구축이 가능한 스토리지 서비스 프로젝트.
+                    </p>
+
+                    <h2 class="section-heading">부가 서비스</h2>
+
+                    <p class="korean_font">1. Keystone(Identity) : 모든 서비스의 Identity를 증명하는 역할을 함. 2. Quantum(Network) : 인터페이스의 디바이스와 오픈스택 서비스간의 네트워킹 서비스를 지원하는 프로젝트. 3. Cinder(Block Storage) : Compute응 위해 스토리지 볼륨을 제공하는 역할을 함. 4. Horizon(Dashboard) : 오픈스택 기반 구현 서비스들을 관리자나 사용자가
+                        제어하기 위한 웹 인터페이스를 제공함.
+                    </p>
+
+                    <h2 class="section-heading">장점</h2>
+
+                    <p class="korean_font">확정성과 모듈성 : 가상화 컴퓨팅 기술, 개인 데이터 저장 기술, 서로 다른 소프트웨어끼리 통신할 수 있는 소프트웨어 정의 네트워크(SDN) 등을 제공한다. 기업은 굳이 오픈스택이 제공하는 모든 기능을 사용하지 않아도 된다.
+
+                    </p>
+
+                    <h2 class="section-heading">단점</h2>
+
+                    <p class="korean_font">너무 잦은 업데이트 : 업데이트 주기가 빨라 개발자들이 충분한 테스트 과정을 거치지 못하기 때문.
+
+
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="list-inline">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a target="_blank" href="http://www.skku.edu">SKKU</a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted small">Copyright &copy; Introduction to Open-Source, SKKU 2016. All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="../js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
